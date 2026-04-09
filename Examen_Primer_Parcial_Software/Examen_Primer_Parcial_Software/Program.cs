@@ -204,3 +204,39 @@ class NuevaSolucion
     }
 }
 
+// ==============================
+// PARTE 3: JUSTIFICACIÓN
+// ==============================
+//
+// 1. Cambios realizados respecto a la solución original:
+// - Se separó la lógica en métodos con nombres descriptivos (LeerDatos,
+//   InicializarIndices, GenerarVectorIndicesAscendente, etc.) para mejorar
+//   la legibilidad y el principio de responsabilidad única.
+// - Se evitó la duplicación de código: la inicialización del vector de índices
+//   se centraliza en el método InicializarIndices(), reutilizado antes de cada
+//   ordenamiento.
+// - Se eliminaron "magic numbers" y variables poco descriptivas.
+// - Se unificó la impresión en un solo método ImprimirOrdenado() parametrizado.
+//
+// 2. Decisiones de diseño:
+// - Se usaron variables estáticas de clase para compartir estado entre métodos
+//   sin pasar parámetros excesivos, manteniendo el código limpio para un programa
+//   de consola de alcance reducido.
+// - El vector original NUNCA se modifica: todo el ordenamiento se hace
+//   exclusivamente sobre el vector de índices (vectorIndices), cumpliendo
+//   estrictamente la restricción del enunciado.
+// - No se realizaron copias del vector original ni por elemento ni en bloque.
+// - Se usó Selection Sort en la parte 1 por su claridad conceptual: siempre
+//   busca el mínimo/máximo entre los índices restantes y lo coloca en su posición.
+//
+// 3. Explicación del nuevo algoritmo (Insertion Sort - Parte 2):
+// - Se utiliza Insertion Sort como estrategia alternativa de ordenamiento.
+// - En lugar de buscar el mínimo (como Selection Sort), toma cada índice uno
+//   por uno (desde la posición 1) y lo "inserta" en la posición correcta dentro
+//   de la parte ya ordenada del vector de índices.
+// - La comparación se hace entre los VALORES del vector original accedidos
+//   mediante los índices: vectorOriginal[vectorIndices[j]] vs vectorOriginal[indiceActual].
+// - Un método Comparar() con parámetro booleano permite reutilizar la misma
+//   lógica para orden ascendente y descendente, evitando duplicación de código.
+// - Este algoritmo es eficiente para arreglos casi ordenados (O(n) en el mejor
+//   caso) y es estable, lo que lo diferencia conceptualmente del Selection Sort.
