@@ -3,90 +3,102 @@
 
 class Program
 {
-  static void Main(string[] args)
-  {
-    int n, i = 0, k = 0;
+    // ===================================
+    // PARTE 1: SOLUCIÓN REFACTORIZADA
+    // ===================================
+    static int n;
+    static int[] vectorOriginal;
+    static int[] vectorIndices;
 
-    Console.Write("Ingrese tamaño del vector: ");
-    n = int.Parse(Console.ReadLine());
-
-    int[] v = new int[n];
-    int[] v2 = new int[n];
-    bool[] b = new bool[n];
-
-    // ingreso de datos
-    while (i < n)
+    static void Main(string[] args)
     {
-      Console.Write("Ingrese valor [" + i + "]: ");
-      v[i] = int.Parse(Console.ReadLine());
-      i++;
+        LeerDatos();
+        GenerarVectorIndicesAscendente();
+        ImprimirOrdenado("ASCENDENTE");
+        GenerarVectorIndicesDescendente();
+        ImprimirOrdenado("DESCENDENTE");
     }
 
-    // ORDENAMIENTO ASCENDENTE
-    k = 0;
-    while (k < n)
+    static void LeerDatos()
     {
-      int m = 999999;
-      int pos = -1;
+        Console.Write("Ingrese el número de elementos: ");
+        n = int.Parse(Console.ReadLine());
+        vectorOriginal = new int[n];
+        vectorIndices = new int[n];
 
-      for (i = 0; i < n; i++)
-      {
-        if (b[i] == false)
+        Console.WriteLine("Ingrese los elementos del vector:");
+        for (int i = 0; i < n; i++)
         {
-          if (v[i] < m)
-          {
-            m = v[i];
-            pos = i;
-          }
+            Console.Write($"Elemento [{i}]: ");
+            vectorOriginal[i] = int.Parse(Console.ReadLine());
         }
-      }
-
-      v2[k] = pos;
-      b[pos] = true;
-      k++;
     }
 
-    Console.WriteLine("\nVector ordenado ascendente:");
-    for (i = 0; i < n; i++)
+    
+    static void InicializarIndices()
     {
-      Console.WriteLine(v[v2[i]]);
-    }
-
-    // reiniciar marcas
-    for (i = 0; i < n; i++)
-    {
-      b[i] = false;
-    }
-
-    // ORDENAMIENTO DESCENDENTE
-    k = 0;
-    while (k < n)
-    {
-      int m = -999999;
-      int pos = -1;
-
-      for (i = 0; i < n; i++)
-      {
-        if (b[i] == false)
+        for (int i = 0; i < n; i++)
         {
-          if (v[i] > m)
-          {
-            m = v[i];
-            pos = i;
-          }
+            vectorIndices[i] = i;
         }
-      }
-
-      v2[k] = pos;
-      b[pos] = true;
-      k++;
     }
 
-    Console.WriteLine("\nVector ordenado descendente:");
-    for (i = 0; i < n; i++)
+
+    static void GenerarVectorIndicesAscendente()
     {
-      Console.WriteLine(v[v2[i]]);
+        InicializarIndices();
+
+        for (int i = 0; i < n - 1; i++)
+        {
+            int posMin = i;
+            for (int j = i + 1; j < n; j++)
+            {
+                if (vectorOriginal[vectorIndices[j]] < vectorOriginal[vectorIndices[posMin]])
+                {
+                    posMin = j;
+                }
+            }
+            int temp = vectorIndices[i];
+            vectorIndices[i] = vectorIndices[posMin];
+            vectorIndices[posMin] = temp;
+        }
     }
-  }
+
+    static void GenerarVectorIndicesDescendente()
+    {
+        InicializarIndices();
+
+        for (int i = 0; i < n - 1; i++)
+        {
+            int posMax = i;
+            for (int j = i + 1; j < n; j++)
+            {
+                if (vectorOriginal[vectorIndices[j]] > vectorOriginal[vectorIndices[posMax]])
+                {
+                    posMax = j;
+                }
+            }
+            int temp = vectorIndices[i];
+            vectorIndices[i] = vectorIndices[posMax];
+            vectorIndices[posMax] = temp;
+        }
+    }
+
+    static void ImprimirOrdenado(string tipo)
+    {
+        Console.Write($"\nVector ordenado {tipo}: ");
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write(vectorOriginal[vectorIndices[i]] + " ");
+        }
+        Console.WriteLine();
+
+        Console.Write("Vector de índices:        ");
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write(vectorIndices[i] + " ");
+        }
+        Console.WriteLine();
+    }
+
 }
-
