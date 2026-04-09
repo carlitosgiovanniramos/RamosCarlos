@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Examen_Primer_Parcial_Software")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa0b87d1a846d3734cadc77e097d79368271f3a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e6afaa68a093a0630f3e27da1595c658b42d30f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Examen_Primer_Parcial_Software")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Examen_Primer_Parcial_Software")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
