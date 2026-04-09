@@ -1,0 +1,29 @@
+C:\Users\DOCENTE\Documents\Tesis (Informes)\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\bin\Debug\net10.0\Examen_Primer_Parcial_Software.exe
+C:\Users\DOCENTE\Documents\Tesis (Informes)\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\bin\Debug\net10.0\Examen_Primer_Parcial_Software.deps.json
+C:\Users\DOCENTE\Documents\Tesis (Informes)\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\bin\Debug\net10.0\Examen_Primer_Parcial_Software.runtimeconfig.json
+C:\Users\DOCENTE\Documents\Tesis (Informes)\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\bin\Debug\net10.0\Examen_Primer_Parcial_Software.dll
+C:\Users\DOCENTE\Documents\Tesis (Informes)\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\bin\Debug\net10.0\Examen_Primer_Parcial_Software.pdb
+C:\Users\DOCENTE\Documents\Tesis (Informes)\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\Examen_Primer_Parcial_Software.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DOCENTE\Documents\Tesis (Informes)\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\Examen_Primer_Parcial_Software.AssemblyInfoInputs.cache
+C:\Users\DOCENTE\Documents\Tesis (Informes)\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\Examen_Primer_Parcial_Software.AssemblyInfo.cs
+C:\Users\DOCENTE\Documents\Tesis (Informes)\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\Examen_Primer_Parcial_Software.csproj.CoreCompileInputs.cache
+C:\Users\DOCENTE\Documents\Tesis (Informes)\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\Examen_Primer_Parcial_Software.dll
+C:\Users\DOCENTE\Documents\Tesis (Informes)\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\refint\Examen_Primer_Parcial_Software.dll
+C:\Users\DOCENTE\Documents\Tesis (Informes)\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\Examen_Primer_Parcial_Software.pdb
+C:\Users\DOCENTE\Documents\Tesis (Informes)\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\Examen_Primer_Parcial_Software.genruntimeconfig.cache
+C:\Users\DOCENTE\Documents\Tesis (Informes)\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\ref\Examen_Primer_Parcial_Software.dll
+C:\Users\Lenovo LOQ\Desktop\UTA\5 Software\Patrones de Software\Unidad 2\RamosCarlos\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\bin\Debug\net10.0\Examen_Primer_Parcial_Software.exe
+C:\Users\Lenovo LOQ\Desktop\UTA\5 Software\Patrones de Software\Unidad 2\RamosCarlos\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\bin\Debug\net10.0\Examen_Primer_Parcial_Software.deps.json
+C:\Users\Lenovo LOQ\Desktop\UTA\5 Software\Patrones de Software\Unidad 2\RamosCarlos\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\bin\Debug\net10.0\Examen_Primer_Parcial_Software.runtimeconfig.json
+C:\Users\Lenovo LOQ\Desktop\UTA\5 Software\Patrones de Software\Unidad 2\RamosCarlos\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\bin\Debug\net10.0\Examen_Primer_Parcial_Software.dll
+C:\Users\Lenovo LOQ\Desktop\UTA\5 Software\Patrones de Software\Unidad 2\RamosCarlos\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\bin\Debug\net10.0\Examen_Primer_Parcial_Software.pdb
+C:\Users\Lenovo LOQ\Desktop\UTA\5 Software\Patrones de Software\Unidad 2\RamosCarlos\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\Examen_Primer_Parcial_Software.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo LOQ\Desktop\UTA\5 Software\Patrones de Software\Unidad 2\RamosCarlos\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\Examen_Primer_Parcial_Software.AssemblyInfoInputs.cache
+C:\Users\Lenovo LOQ\Desktop\UTA\5 Software\Patrones de Software\Unidad 2\RamosCarlos\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\Examen_Primer_Parcial_Software.AssemblyInfo.cs
+C:\Users\Lenovo LOQ\Desktop\UTA\5 Software\Patrones de Software\Unidad 2\RamosCarlos\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\Examen_Primer_Parcial_Software.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo LOQ\Desktop\UTA\5 Software\Patrones de Software\Unidad 2\RamosCarlos\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\Examen_Primer_Parcial_Software.sourcelink.json
+C:\Users\Lenovo LOQ\Desktop\UTA\5 Software\Patrones de Software\Unidad 2\RamosCarlos\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\Examen_Primer_Parcial_Software.dll
+C:\Users\Lenovo LOQ\Desktop\UTA\5 Software\Patrones de Software\Unidad 2\RamosCarlos\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\refint\Examen_Primer_Parcial_Software.dll
+C:\Users\Lenovo LOQ\Desktop\UTA\5 Software\Patrones de Software\Unidad 2\RamosCarlos\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\Examen_Primer_Parcial_Software.pdb
+C:\Users\Lenovo LOQ\Desktop\UTA\5 Software\Patrones de Software\Unidad 2\RamosCarlos\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\Examen_Primer_Parcial_Software.genruntimeconfig.cache
+C:\Users\Lenovo LOQ\Desktop\UTA\5 Software\Patrones de Software\Unidad 2\RamosCarlos\Examen_Primer_Parcial_Software\Examen_Primer_Parcial_Software\obj\Debug\net10.0\ref\Examen_Primer_Parcial_Software.dll

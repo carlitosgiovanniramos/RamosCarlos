@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Lenovo LOQ\\Desktop\\UTA\\5 Software\\Patrones de Software\\Unidad 2\\RamosCarlos\\Examen_Primer_Parcial_Software\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2DDC5A9A-5312-7F6D-F5C8-5086D5AA688F}|Examen_Primer_Parcial_Software\\Examen_Primer_Parcial_Software.csproj|c:\\users\\lenovo loq\\desktop\\uta\\5 software\\patrones de software\\unidad 2\\ramoscarlos\\examen_primer_parcial_software\\examen_primer_parcial_software\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDC5A9A-5312-7F6D-F5C8-5086D5AA688F}|Examen_Primer_Parcial_Software\\Examen_Primer_Parcial_Software.csproj|solutionrelative:examen_primer_parcial_software\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo LOQ\\Desktop\\UTA\\5 Software\\Patrones de Software\\Unidad 2\\RamosCarlos\\Examen_Primer_Parcial_Software\\Examen_Primer_Parcial_Software\\Program.cs",
+              "RelativeDocumentMoniker": "Examen_Primer_Parcial_Software\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo LOQ\\Desktop\\UTA\\5 Software\\Patrones de Software\\Unidad 2\\RamosCarlos\\Examen_Primer_Parcial_Software\\Examen_Primer_Parcial_Software\\Program.cs",
+              "RelativeToolTip": "Examen_Primer_Parcial_Software\\Program.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwFUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-09T17:30:13.915Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

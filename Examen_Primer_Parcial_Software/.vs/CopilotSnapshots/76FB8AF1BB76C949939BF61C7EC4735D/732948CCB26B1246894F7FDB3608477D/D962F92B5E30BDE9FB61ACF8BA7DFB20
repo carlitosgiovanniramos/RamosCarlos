@@ -1,0 +1,105 @@
+﻿namespace Examen_Primer_Parcial_Software;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.Write("Ingrese tamaño del vector: ");
+        if (!int.TryParse(Console.ReadLine(), out int n) || n <= 0)
+        {
+            Console.WriteLine("Tamaño no válido.");
+            return;
+        }
+
+        int[] v = new int[n];
+
+        // ingreso de datos
+        for (int i = 0; i < n; i++)
+        {
+            Console.Write($"Ingrese valor [{i}]: ");
+            v[i] = int.Parse(Console.ReadLine());
+        }
+
+        // Instancia de la clase encargada de la lógica (reutilizable)
+        var sorter = new IndexSorter(v);
+
+        // ORDENAMIENTO ASCENDENTE
+        int[] ascIndices = sorter.GetAscendingIndices();
+        Console.WriteLine("\nVector ordenado ascendente:");
+        for (int i = 0; i < n; i++)
+        {
+            Console.WriteLine(v[ascIndices[i]]);
+        }
+
+        // ORDENAMIENTO DESCENDENTE
+        int[] descIndices = sorter.GetDescendingIndices();
+        Console.WriteLine("\nVector ordenado descendente:");
+        for (int i = 0; i < n; i++)
+        {
+            Console.WriteLine(v[descIndices[i]]);
+        }
+    }
+}
+
+/// <summary>
+/// Clase encargada de proveer los índices ordenados de un vector sin modificar  
+/// ni copiar sus elementos originales, lista para ser reutilizada en otros entornos.
+/// </summary>
+public class IndexSorter
+{
+    private readonly int[] _originalVector;
+
+    public IndexSorter(int[] originalVector)
+    {
+        _originalVector = originalVector;
+    }
+
+    public int[] GetAscendingIndices()
+    {
+        int[] indices = InitializeIndices();
+        // Ordenamos el vector de índices usando los valores originales como referencia
+        Array.Sort(indices, (a, b) => _originalVector[a].CompareTo(_originalVector[b]));
+        return indices;
+    }
+
+    public int[] GetDescendingIndices()
+    {
+        int[] indices = InitializeIndices();
+        // Ordenamos el vector de índices de forma inversa usando los valores originales como referencia
+        Array.Sort(indices, (a, b) => _originalVector[b].CompareTo(_originalVector[a]));
+        return indices;
+    }
+
+    private int[] InitializeIndices()
+    {
+        int[] indices = new int[_originalVector.Length];
+        for (int i = 0; i < indices.Length; i++)
+        {
+            indices[i] = i;
+        }
+        return indices;
+    }
+}
+
+/*
+ * JUSTIFICACIÓN (SECCIÓN 6):
+ * 1. Decisiones en el diseño:
+ *  - Se extrajo toda la lógica de ordenamiento a una clase separada llamada "IndexSorter".
+ *    Esto aplica el Principio de Responsabilidad Única (SRP) y garantiza que la solución pueda 
+ *    ser reutilizada en aplicaciones web, móviles o de escritorio (no únicamente en consola).
+ *
+ * 2. Cambios realizados respecto al código original:
+ *  - Se eliminaron las variables temporales y ciclos de comprobación redundantes (por ejemplo, 
+ *    el arreglo de booleanos "b" y las búsquedas repetitivas de máximos/mínimos).
+ *  - Se mejoró la mantenibilidad y claridad usando nombres de variables y métodos explicativos.
+ *
+ * 3. Lógica de la solución alternativa implementada:
+ *  - Para cumplir con la restricción de NO modificar ni realizar copias del vector original, 
+ *    se decidió inicializar un vector con índices [0, 1, ..., n-1]. 
+ *  - Posteriormente se aplicó el método optimizado "Array.Sort()" exclusivo sobre dicho vector
+ *    de índices, delegando la comparación a una expresión lambda que evalúa los elementos en 
+ *    el vector original subyacente. 
+ *  - Esta técnica es notoriamente eficiente (O(n log n)) a comparación del O(N^2) que poseía 
+ *    el código en su diseño inicial, logrando el resultado esperado exclusivamente con un 
+ *    enfoque de índices.
+ */
