@@ -181,7 +181,6 @@ class NuevaSolucion
         }
     }
 
-    // Retorna true si se debe desplazar (el elemento está fuera de lugar)
     static bool Comparar(int a, int b, bool ascendente)
     {
         return ascendente ? a > b : a < b;
